@@ -4,18 +4,26 @@
 }
 body {
   font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background: hsl(204, 43%, 93%);
 }
 
 #container {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  margin: 100px auto;
+  width: 600px;
+  padding: 0 30px;
 }
 
 #introducion {
-  border: 1px solid red;
+  padding: 30px;
+  width: 600px;
+  background: white;
+  border-radius: 8px 8px 0 0;
 }
 
 #container_down {
@@ -23,7 +31,21 @@ body {
   flex-wrap: nowrap;
 }
 
-#value, #services {
- display: inline-block;
- border: 1px solid red;
+#value,
+#services {
+  display: inline-block;
+  padding: 15px;
+  width: 300px;
+}
+#value {
+  background: hsl(179, 62%, 43%);
+  border-radius: 0 0 0 8px;
+}
+#services {
+  background: hsla(179, 80%, 35%, 0.61);
+  border-radius: 0 0 8px 0;
+}
+
+#services ul {
+  list-style: none;
 }

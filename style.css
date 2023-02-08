@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 16px;
   background: hsl(204, 43%, 93%);
 }
@@ -19,7 +19,9 @@ body {
   margin: 100px auto;
 }
 
-h2, .number, p {
+h2,
+.number,
+p {
   color: white;
   padding-bottom: 10px;
 }
@@ -53,7 +55,8 @@ h2, .number, p {
   flex-wrap: nowrap;
 }
 
-#value, #services {
+#value,
+#services {
   display: inline-block;
   height: 270px;
   width: 330px;
@@ -76,7 +79,6 @@ h2, .number, p {
 #value .name {
   color: hsla(202, 18%, 100%, 0.4);
 }
-
 
 /*Button*/
 

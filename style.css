@@ -16,6 +16,8 @@ body {
   flex-direction: column;
 
   margin: 100px auto;
+  width: 100%;
+
 }
 
 /*firt box*/
@@ -25,6 +27,7 @@ body {
   width: 660px;
   background: white;
   border-radius: 8px 8px 0 0;
+  box-shadow: 1px -1px 15px 3px hsl(218, 22%, 85%);
 }
 #introduction h1 {
   margin-bottom: 30px;
@@ -43,6 +46,7 @@ body {
 #container_down {
   display: flex;
   flex-wrap: nowrap;
+  
 }
 
 #value,
@@ -50,6 +54,7 @@ body {
   display: inline-block;
   height: 270px;
   width: 330px;
+  
 }
 
 /*second box*/
@@ -57,26 +62,38 @@ body {
 #value {
   background: hsl(179, 62%, 43%);
   border-radius: 0 0 0 8px;
-  padding: 35px;
+  padding-left: 35px;
+  padding-top: 35px;
 }
 
-.number {
+#value .number {
   font-size: 35px;
   font-weight: bold;
 }
 
-.name {
+#value .name {
   color: hsla(202, 18%, 100%, 0.4);
 }
 
-.buttom {
+#value button {
+  border: 0;
   text-align: center;
-  padding: 20px 1px;
-  margin-top: 30px;
+  width: 200px;
+  height: 45px;
+  margin-left: 30px;
+  margin-top: 20px;
   border-radius: 6px;
   color: hsl(204, 20%, 100%);
   background: hsl(71, 95%, 44%);
   font-weight: bold;
+   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 15s;
+  transition: box-shadow 0.2s;
+}
+
+#value button:hover {
+   transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4); 
 }
 
 /*third box*/

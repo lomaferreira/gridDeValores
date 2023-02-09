@@ -12,7 +12,7 @@
 * [Autor](#author)
 
 # Descrição do Projeto
- Um projeto de Grid de Preços (simulado), que tem como objetivo de praticar desafios de layout com flexbox.
+ Um projeto de Grid de Preços (simulado), que tem como objetivo  praticar desafios de layout com flexbox.
 
  # Tecnologias utilizadas
  - HTML e CSS
